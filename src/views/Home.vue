@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <cabecera/>
+    <navbar/>
   </div>
 </template>
 
@@ -8,11 +9,13 @@
 // @ is an alias to /src
 
 import cabecera from '../components/Header/head';
+import navbar from '../components/Header/navbar';
 
 export default {
   name: 'Home',
   components: {
-    cabecera
+    cabecera,
+    navbar
     
   }
 }

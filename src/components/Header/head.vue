@@ -56,7 +56,7 @@
         </li>
         <li>
             <router-link to="#" class="routerlink">
-                <i class='bx bx-location-plus bx-sm'></i>
+                <i class='bx bx-map bx-sm'></i>
                 <span>Sucursales</span>
             </router-link>
         </li>
@@ -91,8 +91,6 @@ export default {
 <style scoped>
 * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
 }
 
 a {
@@ -156,5 +154,11 @@ img {
 
 .nav-brand img {
   width: 350px;
+}
+
+@media(max-width: 768px){
+    .nav {
+        display: none;
+    }
 }
 </style>
