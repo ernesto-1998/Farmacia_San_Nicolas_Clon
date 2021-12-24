@@ -29,12 +29,12 @@
       </ul>
       <div class="navbar-content-right">
         <!-- <input type="text" placeholder="Buscar producto"> -->
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        <div class="input-group">
+          <input type="text" class="form-control backwhite" placeholder="Buscar producto" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary backwhite" type="button" id="button-addon2"><i class='bx bx-search bx-sm backwhite'></i></button>
         </div>        
         <router-link to="#">
-          <i class="bx bx-cart bx-md pe-3"></i>
+          <i class="bx bx-cart bx-md px-3"></i>
         </router-link>
       </div>
     </div>
@@ -56,7 +56,6 @@ a {
 }
 
 span {
-  /* color: #fff; */
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -98,12 +97,12 @@ ul {
   width: 100%;
 }
 
-.navbar-content-right input {
+.backwhite{
   background-color: #fff;
-  border: none;
-  
-  border-radius: 5px;
-  height: 100%;
+}
+
+.input-group button {
+  border-left: none;
 }
 
 .routerlink {

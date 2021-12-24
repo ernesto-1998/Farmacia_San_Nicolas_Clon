@@ -18,15 +18,15 @@
             <a
               class="dropdown-toggle routerlink"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
             <i class='bx bx-plus-circle bx-sm'></i>
               <span>Conózcanos</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <a class="dropdown-item" href="#">¿Quiénes somos?</a>
               <a class="dropdown-item" href="#">Conózcanos</a>
             </div>
@@ -37,15 +37,15 @@
             <a
               class="dropdown-toggle routerlink"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
+              id="dropdownMenuButton2"
+              data-bs-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
             <i class='bx bx-injection bx-sm' ></i>
               <span>Servicios</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
               <a class="dropdown-item" href="#">Nuestros servicios</a>
               <a class="dropdown-item" href="#">Jornadas de salud</a>
               <a class="dropdown-item" href="#">Blog de salud</a>
@@ -65,15 +65,15 @@
             <a
               class="dropdown-toggle routerlink"
               type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
+              id="dropdownMenuButton3"
+              data-bs-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
             <i class='bx bx-user bx-sm'></i>
               <span>Ingresar</span>
             </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
               <a class="dropdown-item" href="#">Iniciar Sesión</a>
               <a class="dropdown-item" href="#">Registrarme</a>
             </div>
