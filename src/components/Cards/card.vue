@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card shadow">
     <div class="row px-2">
       <img :src="datos.img" alt="" />
     </div>
@@ -39,5 +39,9 @@ export default {
 .aumentar {
   font-size: 20px;
   color: rgb(0, 150, 161);
+}
+
+.shadow {
+  box-shadow: 5px 10px;
 }
 </style>
