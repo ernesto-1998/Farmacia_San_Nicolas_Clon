@@ -2,6 +2,7 @@
   <div class="home">
     <cabecera/>
     <navbar/>
+    <carousel/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 
 import cabecera from '../components/Header/head';
 import navbar from '../components/Header/navbar';
+import carousel from '../components/Carousel/carousel';
 
 export default {
   name: 'Home',
   components: {
     cabecera,
-    navbar
+    navbar,
+    carousel
     
   }
 }

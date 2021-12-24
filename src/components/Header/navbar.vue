@@ -28,9 +28,13 @@
         </li>
       </ul>
       <div class="navbar-content-right">
-        <input type="text">
+        <!-- <input type="text" placeholder="Buscar producto"> -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        </div>        
         <router-link to="#">
-          <i class="bx bx-cart bx-md"></i>
+          <i class="bx bx-cart bx-md pe-3"></i>
         </router-link>
       </div>
     </div>
@@ -54,7 +58,7 @@ a {
 span {
   /* color: #fff; */
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 ul {
@@ -78,7 +82,7 @@ ul {
 
 .navbar-content-left li {
   border-right: 1px solid #fff;
-  padding: 5px 0;
+  padding: 2px 0;
 }
 
 .navbar-content-left :last-child {
@@ -88,15 +92,16 @@ ul {
 .navbar-content-right {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   color: #fff;
   padding: 12px 0;
+  width: 100%;
 }
 
 .navbar-content-right input {
   background-color: #fff;
   border: none;
-  width: 400px;
-  margin-right: 10px;
+  
   border-radius: 5px;
   height: 100%;
 }
