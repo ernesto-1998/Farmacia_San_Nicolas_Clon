@@ -29,7 +29,6 @@
         </li>
       </ul>
       <div class="navbar-content-right">
-        <!-- <input type="text" placeholder="Buscar producto"> -->
         <div class="input-group">
           <input type="text" class="form-control backwhite" placeholder="Buscar producto" aria-label="Recipient's username" aria-describedby="button-addon2">
           <button class="btn btn-outline-secondary backwhite" type="button" id="button-addon2"><i class='bx bx-search bx-sm backwhite'></i></button>

@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-          <div class="col-3 mb-5">
+          <div class="col-3 mb-5 button-hover">
             <router-link to="#" class="btn background py-2 w-100">
               <i class="bx bx-plus-medical me-2"></i>
               <Strong><span>Ver más</span></Strong>
@@ -152,6 +152,10 @@ a {
   color: #fff;
   border-radius: 25px;
   font-size: 20px;
+}
+
+.button-hover :hover {
+  background-color: rgb(199, 4, 118);
 }
 
 .banner-container{
