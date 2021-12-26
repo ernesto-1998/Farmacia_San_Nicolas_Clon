@@ -22,7 +22,7 @@
 export default {
   name: "card",
   props: {
-    datos: Array,
+    datos: Object,
   },
 };
 </script>
