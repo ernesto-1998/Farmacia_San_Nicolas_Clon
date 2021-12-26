@@ -1,4 +1,5 @@
 <template>
+<VueScrollFixedNavbar>
   <div class="nav">
     <div class="navbar-content">
       <ul class="navbar-content-left">
@@ -39,6 +40,7 @@
       </div>
     </div>
   </div>
+</VueScrollFixedNavbar>
 </template>
 <script>
 export default {

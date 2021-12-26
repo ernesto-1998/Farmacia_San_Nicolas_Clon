@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import VueScrollFixedNavbar from "vue-scroll-fixed-navbar";
+
+Vue.use(VueScrollFixedNavbar);
 
 Vue.config.productionTip = false
 
