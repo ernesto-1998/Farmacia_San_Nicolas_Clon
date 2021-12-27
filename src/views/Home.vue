@@ -28,10 +28,12 @@
     </div>
     <div class="contenedor">
       <div class="content">
-        <div class="division2">Lo más Vendido</div>
-        <div class="row overflow">
-          <div class="col-3" v-for="(value, index) in 9" :key="index">
-            <minicard />
+        <div class="division2"><strong>Lo más vendido</strong></div>
+        <div class="scroll-menu">
+          <div class="row scroll-content">
+            <div class="col-md-3 col-6 carta" v-for="(value, index) in 8" :key="index">
+              <minicard/>
+            </div>
           </div>
         </div>
       </div>
@@ -194,7 +196,20 @@ a {
   width: 100%;
 }
 
-.overflow {
+.scroll-menu {
+
+}
+
+.scroll-content {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  flex-wrap: nowrap;
   overflow-y: auto;
+}
+
+.carta{
+  border-radius: 10px;
+   padding: 0 15px;
 }
 </style>
