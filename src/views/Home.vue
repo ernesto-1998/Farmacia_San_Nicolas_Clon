@@ -23,7 +23,17 @@
     </div>
     <div class="banner-container">
       <div class="wrap container-fluid">
-        <img src="../assets/Bannerbajo.jpg" alt="">
+        <img src="../assets/Bannerbajo.jpg" alt="" />
+      </div>
+    </div>
+    <div class="contenedor">
+      <div class="content">
+        <div class="division2">Lo más Vendido</div>
+        <div class="row overflow">
+          <div class="col-3" v-for="(value, index) in 9" :key="index">
+            <minicard />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -36,6 +46,7 @@ import cabecera from "../components/Header/head";
 import navbar from "../components/Header/navbar";
 import carousel from "../components/Carousel/carousel";
 import card from "../components/Cards/card";
+import minicard from "../components/Cards/miniCard";
 
 export default {
   name: "Home",
@@ -44,6 +55,7 @@ export default {
     navbar,
     carousel,
     card,
+    minicard,
   },
   data() {
     return {
@@ -109,10 +121,10 @@ a {
 }
 
 .wrap img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 25px 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 25px 0;
 }
 
 .wrap {
@@ -121,7 +133,7 @@ a {
   padding: 0 25px;
 }
 
-.contenedor{
+.contenedor {
   width: 100%;
   height: auto;
   background-color: rgb(242, 242, 242);
@@ -147,6 +159,26 @@ a {
   border-radius: 25px;
 }
 
+.division2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  background-color: rgb(32, 51, 56);
+  font-size: 40px;
+  /* margin: 45px 0; */
+  margin-top: 45px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+.division2 ul {
+  list-style: none;
+  display: flex;
+}
+
 .background {
   background-color: rgb(236, 0, 138);
   color: #fff;
@@ -158,9 +190,11 @@ a {
   background-color: rgb(199, 4, 118);
 }
 
-.banner-container{
+.banner-container {
   width: 100%;
-
 }
 
+.overflow {
+  overflow-y: auto;
+}
 </style>
