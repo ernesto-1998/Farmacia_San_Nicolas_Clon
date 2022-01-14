@@ -196,10 +196,6 @@ a {
   width: 100%;
 }
 
-.scroll-menu {
-
-}
-
 .scroll-content {
   /* display: grid;
   grid-template-columns: repeat(4, 1fr); */
